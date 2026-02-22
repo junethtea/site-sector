@@ -13,7 +13,8 @@ Developed by **Jujun Junaedi**.
 * **Lightning Fast:** Optimized with Bulk Insert rendering to handle National-scale datasets. Generates hundreds of thousands of sectors.
 
 ### 2. 🎨 Dynamic Band Styling
-* Automatically detects and styles unique frequencies/bands from your raw data using smart Regex parsing (e.g., extracting "1800" from "LTE_1800_MHz").
+* Automatically detects and styles unique frequencies/bands.
+rom your raw data using smart Regex parsing (e.g., extracting "1800" from "LTE_1800_MHz").
 * **Auto-Decrement Radius:** Intelligently reduces the sector radius for overlapping multi-band layers so every frequency is perfectly visible without manual adjustment.
 
 ### 3. 🚨 PCI Modulo Audit Engine
@@ -23,6 +24,17 @@ Developed by **Jujun Junaedi**.
 * **ESRI Shapefile (.shp):** Exports geometry and automatically generates a companion `.qml` file to permanently lock your thematic colors.
 * **MapInfo (.tab):** Direct native export for MapInfo users.
 * **Google Earth (.kml):** Exports 3D-ready KMLs that automatically include an embedded, on-screen floating legend.
+
+## 📸 Screenshots
+
+<img width="411" height="394" alt="ScreenCapture Menu Setting" src="https://github.com/user-attachments/assets/9ce18d46-97de-4cd2-ab84-c14c2283e1a5" />
+
+
+<img width="616" height="451" alt="ScreenCapture QGIS" src="https://github.com/user-attachments/assets/83edd189-292a-4329-bca7-45310604b11a" />
+
+
+<img width="742" height="463" alt="ScreenCapture Google Earth" src="https://github.com/user-attachments/assets/be944092-a5f6-4eb1-95f5-e394bc38dcd2" />
+
 
 ## 🛠️ Installation
 
@@ -52,4 +64,5 @@ If this tool saves you hours of work, consider buying me a coffee! Your support 
 💡 *Pro Tip: To ensure your colleagues get the latest bug-free version, please share the Official GitHub Link instead of raw ZIP files!*
 
 ---
+
 *Dedicated to my beloved family. ❤️*
