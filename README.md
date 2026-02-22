@@ -65,4 +65,5 @@ If this tool saves you hours of work, consider buying me a coffee! Your support 
 
 ---
 
-*Dedicated to my beloved family. ❤️*
+*Dedicated to Taink | Cemot | Bolu | Nara. ❤️❤️❤️❤️*
+
