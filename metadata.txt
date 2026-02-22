@@ -1,0 +1,24 @@
+[general]
+name=Site Sector
+qgisMinimumVersion=3.16
+description=Generate dynamic sectoral site wedges and PCI audits.
+version=1.2.0
+author=Jujun Junaedi
+email=jujun.junaedi@outlook.com
+license=GPL-2.0-or-later
+about=Site Sector is an advanced productivity tool designed for RF/NPO Engineers in the Telecommunications sector. It automates the generation of cellular site polygons (wedges) and features a built-in audit engine for network optimization. Key features include:
+    * Dynamic Band Styling: Automatically detects and styles unique frequencies/bands using smart Regex parsing.
+    * Auto-Decrement Radius: Intelligently reduces sector radius for overlapping multi-band layers to ensure full visibility.
+    * PCI Modulo Audit: Instantly visualize LTE interference by generating thematic site sector based on PCI Modulo 3 (RS), Mod 6 (PSS).
+    * Multi-Format Export: Seamlessly export generated sectors data to ESRI Shapefile (.shp), MapInfo (.tab), or professional Google Earth (.kml) formats with auto-embedded floating legends.
+tracker=https://github.com/junethtea/site-sector/issues
+repository=https://github.com/junethtea/site-sector
+tags=site sector, gcell, mcom, cell, rno, npo, pci, interference, telecommunications, rf, google earth, kml, thematic
+homepage=https://github.com/junethtea/site-sector
+category=Vector
+icon=icon.png
+experimental=False
+changelog=
+    1.2.0 - Added Tabbed UI and PCI Modulo Audit functionality (Mod 3, Mod 6).
+    1.1.0 - Upgraded to Global Edition: Dynamic band detection, smart regex parsing, and auto-decrementing overlapping radius.
+    1.0.0 - Initial release for basic sectoral wedge generation.
